@@ -1,0 +1,2 @@
+class FinishedProjectsController < ApplicationController
+end

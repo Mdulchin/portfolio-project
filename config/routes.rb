@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :softprojs
   resources :photos
   resources :finished_projects
   # Routing logic: fallback requests for React Router.

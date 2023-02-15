@@ -9,11 +9,13 @@ import {Route, Routes, Link} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav className="navBar">
+        <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/embroidery-projects">Embroidery Projects</Link></li>
         <li><Link to="/software-projects">Software Projects</Link></li>
+        </ul>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />

@@ -23,11 +23,12 @@ ul {
 display: inline;
 padding: 3px;
 }
+
 .firstName {
   position: fixed;
   font-size: xx-large;
   margin-top: 13%;
-  margin-left: -4.2%;
+  margin-left: -13.8%;
   color: white;
   text-decoration: underline #D3B5FF;
   text-underline-offset: 15px;
@@ -37,7 +38,7 @@ padding: 3px;
   position: fixed;
   font-size: xx-large;
   margin-top: 18.6%;
-  margin-left: 14.7%;
+  margin-left: 5%;
   text-decoration: overline #CD1F1D;
   text-decoration-thickness: 11%;
 }
@@ -47,3 +48,28 @@ padding: 3px;
   float: left;
 }
 
+.EP {
+  position: fixed;
+  margin-top: 30%;
+  font-size: 20px;
+  color: white;
+}
+
+.leftLine{
+  background-color: #D3B5FF;
+  border: 1px solid #D3B5FF;
+  position: fixed;
+  margin-top: 22.32%;
+  margin-left: -38.5%;
+  height: 4.2px;
+  width: 27%;
+}
+.rightLine{
+  background-color: #CD1F1D;
+  border: 1.5px solid #CD1F1D;
+  position: fixed;
+  margin-top: 22.31%;
+  margin-left: 20.5%;
+  height: 4.3px;
+  width: 27%;
+}

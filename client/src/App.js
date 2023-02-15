@@ -13,10 +13,14 @@ function App() {
         <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/embroidery-projects">Embroidery Projects</Link></li>
-        <li><Link to="/software-projects">Software Projects</Link></li>
+        {/* <li><Link to="/embroidery-projects">Embroidery Projects</Link></li>
+        <li><Link to="/software-projects">Software Projects</Link></li> */}
         </ul>
       </nav>
+      <span className='leftLine'></span>
+      <span className='rightLine'></span>
+      <Link to="/embroidery-projects" className='EP'>↩</Link>
+      <Link to="/software-projects" className='SP'>↪</Link>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -17,10 +17,8 @@ function App() {
         <li><Link to="/software-projects">Software Projects</Link></li> */}
         </ul>
       </nav>
-      <span className='leftLine'></span>
-      <span className='rightLine'></span>
-      <Link to="/embroidery-projects" className='EP'>↩</Link>
-      <Link to="/software-projects" className='SP'>↪</Link>
+      <Link to="/embroidery-projects" className='EP'>➤</Link>
+      <Link to="/software-projects" className='SP'>➤</Link>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

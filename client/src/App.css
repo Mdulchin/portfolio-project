@@ -41,10 +41,10 @@ padding: 3px;
 .lastName {
   position: fixed;
   font-size: xx-large;
-  margin-top: 21.2%;
-  margin-left: 4.65%;
+  margin-top: 21.02%;
+  margin-left: 4.6%;
   border-top: 6.5px solid #CD1F1D;
-  width: 42.65%;
+  width: 42.7%;
 }
 .last {
   margin-top: 3px;
@@ -96,4 +96,17 @@ padding: 3px;
   width: 15%;
   text-align: left;
   margin-left: 78%;
+}
+
+
+.EmbroideryProjects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.emCard {
+  
+  width: 10%;
+  height: 10%;
 }

@@ -11,7 +11,7 @@ const proj = eProjects.map((eProject) => {
 })
 
     return (
-        <div>
+        <div className="emCard">
         {proj}
         </div>
     )

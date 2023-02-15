@@ -1,5 +1,4 @@
-import About from "./About";
-import Me from "/Users/madelinedulchin/Development/code/new_project/portfolio-project/client/src/Me.JPG";
+import {Link} from 'react-router-dom';
 function Home(){
 
     return (
@@ -12,7 +11,8 @@ function Home(){
             <h1 className="last">Dulchin</h1>
             </span>
             <p className="SWdescription">Software Engineer</p>
-            {/* <img className="me" src={Me}></img> */}
+            <Link to="/embroidery-projects" className='EP'>➤</Link>
+            <Link to="/software-projects" className='SP'>➤</Link>
         </div>
     )
 }

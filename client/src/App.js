@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Home from './Home';
 import About from './About';
 import EmbroideryProjects from './EmbroideryProjects';
 import SoftwareProjects from './SoftwareProjects';
-import {Route, Routes, Link} from 'react-router-dom';
+import {Route, Routes, Link, NavLink} from 'react-router-dom';
+import { useEffect, useState } from "react";
 
 function App() {
+  const [home, setHome] = useState('/');
   return (
     <div className="App">
       <nav className="navBar">
         <ul>
-        <li><Link to="/">Home</Link></li>
+        <li><NavLink to="/">Home</NavLink></li>
         <li><Link to="/about">About</Link></li>
-        {/* <li><Link to="/embroidery-projects">Embroidery Projects</Link></li>
-        <li><Link to="/software-projects">Software Projects</Link></li> */}
         </ul>
       </nav>
-      <Link to="/embroidery-projects" className='EP'>➤</Link>
-      <Link to="/software-projects" className='SP'>➤</Link>
+      
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

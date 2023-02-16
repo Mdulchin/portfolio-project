@@ -2,7 +2,7 @@
 function EmbroideryCard({eProjects}){
 const proj = eProjects.map((eProject) => {
     return (
-    <div>
+    <div className="emCard">
         <h2>{eProject.title}</h2>
         <img src={eProject.cover} alt={eProject.title} />
         <p>{eProject.description}</p>
@@ -11,7 +11,7 @@ const proj = eProjects.map((eProject) => {
 })
 
     return (
-        <div className="emCard">
+        <div className="emCardContainer">
         {proj}
         </div>
     )

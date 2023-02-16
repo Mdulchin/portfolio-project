@@ -8,8 +8,10 @@ function EmbroideryProjects() {
         fetch('/finished_projects')
             .then(response => response.json())
             .then(data => setEProjects(data))
-    }, [])
-
+        }, [])
+    
+        // console.log(eProjects)
+        
   return (
     <>
     <h1>Embroidery Projects</h1>

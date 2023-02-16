@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 blue = FinishedProject.create(title: "Blueberries", description: "Hand embroidered pint of blueberries on a white sweatshirt", cover: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/3286a51c-67ec-4d56-ab65-a0604eefb6bb/blueberrys.jpg?format=1500w")
-    dhouse = FinishedProject.create(title: "Daylight House", description: "Hand embroidered house on canvas. House, car, shrubbery, and some grass are hand embroidered. The background is acrylic", cover: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/1675284691706-TAJPZ6YQV9RAQ5E674TL/IMG_7893.jpg?format=1500w")
+    dhouse = FinishedProject.create(title: "Daylight House", description: "Hand embroidered house on canvas. House, car, shrubbery, and some grass are hand embroidered. The background is acrylic", cover: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/2049156c-30b5-41a3-baff-e2c02156004f/IMG_7877.jpeg?format=1500w")
 
     blueclose1 = Photo.create(title: "Blueberries close up left", image: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/2c26d94f-6ad2-4919-9a6e-b41f42bfec10/IMG_5193.jpg?format=1500w", alt: "blueberries close up left side", finished_project_id: blue.id)
     blueclose2 = Photo.create(title: "Blueberries close up right", image: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/1652205660691-TWUZKO09J9LK4FUG47ZC/View%2Brecent%2Bphotos.jpg?format=1500w", alt: "blueberries close up right side", finished_project_id: blue.id)

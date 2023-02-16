@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import EmbroideryCard from "./EmbroideryCard";
 function EmbroideryProjects() {
     const [eProjects, setEProjects] = useState([]);
@@ -10,10 +11,13 @@ function EmbroideryProjects() {
     }, [])
 
   return (
-    <div className="EmbroideryProjects">
-      <h1>Embroidery Projects</h1>
-      <EmbroideryCard eProjects={eProjects} />
-    </div>
+    <>
+    <h1>Embroidery Projects</h1>
+  <div className="EmbroideryProjects">
+    <EmbroideryCard eProjects={eProjects} />
+    <Link to="/" className="emHome">➤</Link>
+  </div>
+  </>
   );
 }
 export default EmbroideryProjects;

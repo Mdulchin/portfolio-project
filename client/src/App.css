@@ -24,6 +24,21 @@ display: inline;
 padding: 3px;
 }
 
+.github {
+  height: 24px;
+  width: 24px;
+  margin-right: 2px;
+}
+.linkedin {
+  height: 24px;
+  width: 24px;
+  margin-right: 2px;
+}
+.medium {
+  height: 24px;
+  width: 24px;
+  margin-right: 3px;
+}
 .firstName {
   position: absolute;
   font-size: xx-large;

@@ -217,13 +217,59 @@ margin: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }
+.colorskein {
+  width: 66%;
+  height: 740px;
+  background-color: #d3b5ff6a;
+  margin: 10px;
+  box-shadow: #d3b5ff6a 3px 3px 20px 0px;
+  border-radius: 0px 0px 8px 8px;
+}
+.cropPlease {
+  width: 988px;
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+}
+.colorImage {
+  width: 115%;
+  height: 100%;
+  object-position: 15% 10%;
+  object-fit: cover;
+  margin-left: -5.7%;
+}
+.colorImage:hover {
+  opacity: 0.7;
+}
 
+.colorskein h2 {
+margin-bottom: 6px;
+}
+.colorskein p {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.cTech {
+  margin-top: 0;
+  word-spacing: 1px;
+}
+.cTech li {
+  display: inline;
+  margin-right: 15px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #CD1F1D; 
+}
 .softCard {
 display: grid;
 margin: 10px;
-height: 560px;
+height: 520px;
 width: 32%;
 border: 1px solid #D3B5FF;
+box-shadow: #d3b5ffd7 3px 3px 20px 0px;
+border-radius: 0px 0px 8px 8px;
 }
  .softCard h2 {
   background-color: rgba(95, 158, 160, 0.244);
@@ -247,4 +293,10 @@ border: 1px solid #D3B5FF;
   height: 15%;
   text-align: left;
   margin-top: 10px;
+}
+.git {
+  padding-bottom: 9px;
+}
+.git:hover {
+  transform: scale(1.2);
 }

@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import About from './About';
 function Home(){
 
     return (
@@ -13,6 +14,7 @@ function Home(){
             <p className="SWdescription">Software Engineer</p>
             <Link to="/embroidery-projects" className='EP'>➤</Link>
             <Link to="/software-projects" className='SP'>➤</Link>
+            <Link to="/about" className='AB'>About</Link>
         </div>
     )
 }

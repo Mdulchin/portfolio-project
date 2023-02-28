@@ -300,3 +300,50 @@ border-radius: 0px 0px 8px 8px;
 .git:hover {
   transform: scale(1.2);
 }
+.swHome {
+  position: fixed;
+  margin-top: -114.7%;
+  margin-left: -46.2%;
+  text-decoration: none;
+  font-size: 80px;
+  color: #CD1F1D;
+  transform: rotate(180deg);
+}
+.swHome1 {
+  font-size: 20px;
+  margin-top: -100px;
+  transform: rotate(180deg);
+}
+
+.footer {
+  background-color: #d3b5ff3c;
+  margin-top: 4px;
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nameEmail {
+  text-align: left;
+  margin-bottom: 2px;
+  width: 20%;
+}
+.nameEmail p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 6px;
+  width: fit-content;
+}
+.socials {
+  text-align: right;
+  width: 20%;
+  margin-right: 5px;
+  /* float: right;
+  margin-right: 6px; */
+}
+.socials a {
+  margin-right: 9px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 50%;
+}

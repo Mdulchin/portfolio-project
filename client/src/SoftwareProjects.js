@@ -9,7 +9,7 @@ function SoftwareProjects(){
     }, [])
     return(
         <>
-            <h1 className="softH1">Software Projects</h1>
+            <h1 className="softH1">Software Engineering Projects</h1>
         <div className="SoftwareProjects">
             <SoftwareCard sProjects={sProjects} />
         </div>

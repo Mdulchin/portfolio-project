@@ -14,7 +14,7 @@ function EmbroideryProjects() {
         
   return (
     <>
-    <h1>Embroidery Projects</h1>
+    <h1 className="emTitle">Embroidery Projects</h1>
   <div className="EmbroideryProjects">
     <EmbroideryCard eProjects={eProjects} />
     <Link to="/" className="emHome">➤</Link>

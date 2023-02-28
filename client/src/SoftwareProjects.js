@@ -8,10 +8,12 @@ function SoftwareProjects(){
             .then(data => setSProjects(data))
     }, [])
     return(
+        <>
+            <h1 className="softH1">Software Projects</h1>
         <div className="SoftwareProjects">
-            <h1>Software Projects</h1>
             <SoftwareCard sProjects={sProjects} />
         </div>
+        </>
     )
 
 }

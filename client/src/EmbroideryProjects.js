@@ -16,8 +16,8 @@ function EmbroideryProjects() {
     <>
     <h1 className="emTitle">Embroidery Projects</h1>
   <div className="EmbroideryProjects">
+    <Link to="/" className="emHome">➤ <br /> <p className="emHome1">Home</p></Link>
     <EmbroideryCard eProjects={eProjects} />
-    <Link to="/" className="emHome">➤</Link>
   </div>
   </>
   );

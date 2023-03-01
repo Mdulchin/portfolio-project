@@ -4,13 +4,14 @@ function EmbroideryCard({eProjects}){
     const [open, setOpen] = useState(false);
     const [more, setMore] = useState([]);
 const proj = eProjects.map((eProject) => {
+    
     return (
     <div className="emCard" >
         <img src={eProject.cover} alt={eProject.title} />
+        <p className='desc'>{eProject.description}</p>
         <span className='info'>
         <h2>{eProject.title}</h2>
-        <p>{eProject.description}</p>
-        <button className="moreButton" type="button" onClick={() => morePhotos(eProject.photos)}>➤</button>
+        <button className="moreButton" type="button" onClick={() => morePhotos(eProject.photos)}>See more photos</button>
         </span>
     </div>
     )

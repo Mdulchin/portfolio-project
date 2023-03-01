@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: RecoletaMedium, Roboto, Helvetica, sans-serif;
+  font-family: "Ivar Text", sans-serif
 }
 .Home {
   height: 100vh;
@@ -74,8 +74,8 @@ padding-right: 3.4px;
 
 .EP {
   position: absolute;
-  margin-top: 17.7%;
-  margin-left: -43.2%;
+  margin-top: 17.4%;
+  margin-left: -43.7%;
   font-size: 20px;
   color: #D3B5FF;
   text-decoration: none;
@@ -127,7 +127,18 @@ padding-right: 3.4px;
   text-decoration: none;
   margin-left: .6%;
 }
-
+.AB:hover {
+  transform: scale(1.1);
+  background: linear-gradient(
+    to left,
+    white 0%,
+    white 43%,
+    black 43%, 
+    black 100%);
+    background-clip: text;
+    color: transparent;
+  text-decoration: none;
+}
 /* embroidery page */
 
 .emCardContainer {
@@ -434,7 +445,7 @@ border-radius: 0px 0px 8px 8px;
   height: 55%;
   object-fit: cover;
   object-position: 30% 15%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .about h4 {
   position: absolute;
@@ -455,7 +466,7 @@ border-radius: 0px 0px 8px 8px;
   display: flex;
   width: 100%;
   height: 200px;
-  margin-top: 25px;
+  margin-top: 0px;
   justify-content: flex-end;
   align-items: center;
   border-bottom: #D3B5FF 6px solid;
@@ -520,7 +531,27 @@ border-radius: 0px 0px 8px 8px;
   box-shadow: inset 400px 0 0 0 #CD1F1D;
   color: white;
 }
-
+.skillZone {
+  border-top: #CD1F1D 6px solid;
+  /* background-color: #b5bcffae; */
+  background: rgb(181,188,255);
+background: radial-gradient(circle, rgba(181,188,255,1) 0%, rgba(211,181,255,1) 100%);
+  height: 300px;
+}
+.skillList {
+  font-size: 50px;
+  margin: 6px;
+}
+.skills li {
+  border-radius: 50%;
+  background-color: white;
+  list-style-type: none;
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  padding: 25px;
+  margin: 5px;
+}
 /* .current {
 display: flex;
 flex-wrap: wrap;

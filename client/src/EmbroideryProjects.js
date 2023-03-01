@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import EmbroideryCard from "./EmbroideryCard";
 function EmbroideryProjects() {
     const [eProjects, setEProjects] = useState([]);
+    const [isClicked, setIsClicked] = useState(false);
     
     useEffect(() => {
         fetch('/finished_projects')
@@ -16,8 +17,12 @@ function EmbroideryProjects() {
     <>
     <h1 className="emTitle">Embroidery Projects</h1>
   <div className="EmbroideryProjects">
-    <Link to="/" className="emHome">➤ <br /> <p className="emHome1">Home</p></Link>
-    <EmbroideryCard eProjects={eProjects} />
+    {isClicked ?
+      null
+      :
+      <Link to="/" className="emHome">➤ <br /> <p className="emHome1">Home</p></Link>
+    }
+    <EmbroideryCard eProjects={eProjects} setIsClicked={setIsClicked} isClicked={isClicked}/>
   </div>
   </>
   );

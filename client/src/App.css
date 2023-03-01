@@ -142,32 +142,14 @@ padding-right: 3.4px;
 }
 
 .emCard {
-background-color: #d3b5ff6a;
 display: grid;
-/* grid-template-columns: 1.5fr 1fr; */
-padding: 1px;
 width: 500px;
-/* height: 670px; */
-padding: 1px;
 margin: 10px;
-border-radius: 0px 0px 8px 8px;
-/* box-shadow: #d3b5ff6a 3px 3px 20px 0px; */
-
 }
 .info {
   padding: 9px;
-  /* height: 50%;
-  display: grid;
-  grid-template-rows: 1fr 1.5fr 1fr; */
 }
 
-/* .emCard p {
-  font-size: 25px;
-  font-weight: 550;
-  margin-bottom: 5px;
-  max-width: 90%;
-  margin: auto;
-} */
 
 .emCard img {
   max-width: 100%;
@@ -193,13 +175,13 @@ border-radius: 0px 0px 8px 8px;
 }
 
 .emCard h2 {
-  position: absolute;
+  /* position: absolute; */
   width: 490px;
-  margin-left: -9px;
+  margin-left: 0px;
   font-size: 35px;
   margin-bottom: 9px;
   padding-bottom: 3px;
-  margin-top: -3.5%;
+  margin-top: -8.8%;
   background-color: #d3b5ff99;
   text-align: left;
   padding-left: 10px;
@@ -216,11 +198,11 @@ border-radius: 0px 0px 8px 8px;
 
 .emHome {
   z-index: 1;
-  margin-top: 10px;
+  margin-top: 20px;
   position: fixed;
-  margin-left: 40%;
+  margin-left: 43%;
   text-decoration: none;
-  font-size: 80px;
+  font-size: 60px;
   color: #D3B5FF;
 }
 .emHome:hover {
@@ -242,14 +224,12 @@ border-radius: 0px 0px 8px 8px;
   width: 100%;
   height: 50%;
   border: none;
-  /* background: linear-gradient(to right, black 0%, black 57%, #d3b5ff00 50%, #d3b5ff00 100%) bottom;
-  background-repeat: no-repeat;
-  background-size:100% 2px; */
   font-size: x-large;
   margin-left: 0%;
   background-color: transparent;
   margin-top: 2%;
-  padding: 3px;
+  padding: 6px;
+  margin-top: 3px;
   /* border-bottom:rgba(95, 158, 160, 0.244) 2px solid; */
 }
 .moreButton:hover {

@@ -6,12 +6,11 @@ function EmbroideryCard({eProjects, setIsClicked, isClicked}){
 const proj = eProjects.map((eProject) => {
     
     return (
-    <div className="emCard" >
+    <div className="emCard" key={eProject.id}>
         <img src={eProject.cover} alt={eProject.title} />
         <p className='desc'>{eProject.description}
         <button className="moreButton" type="button" onClick={() => morePhotos(eProject.photos)}>See more photos</button>
         </p>
-        {/* <span className='info'> */}
         <h2>{eProject.title}</h2>
         {/* <button className="moreButton" type="button" onClick={() => morePhotos(eProject.photos)}>See more photos</button> */}
         {/* </span> */}
@@ -25,7 +24,7 @@ function morePhotos(e){
     setMore(
         e.map((ph) => {
       return  (
-        <img className="moreImage"src={ph.image} alt={ph.title} />
+        <img className="moreImage"src={ph.image} alt={ph.title}/>
         )
     })
     )

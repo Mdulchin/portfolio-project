@@ -2,9 +2,14 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
-#
+#   
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+FinishedProject.destroy_all
+Photo.destroy_all
+Softproj.destroy_all
+
     dhouse = FinishedProject.create(title: "Daylight House", description: "Hand embroidered house on canvas. House, car, shrubbery, and some grass are hand embroidered. The background is acrylic", cover: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/2049156c-30b5-41a3-baff-e2c02156004f/IMG_7877.jpeg?format=1500w")
     house = FinishedProject.create(title: "House", description: "Hand embroidered house on canvas. Background is acrylic", cover: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/1652207043992-1Z3BXH1S5KW3Q6E2TH9B/4D81C917-36B6-4977-A188-6562525EADEB.jpg?format=1500w")
     blue = FinishedProject.create(title: "Blueberries", description: "Hand embroidered pint of blueberries on a white sweatshirt", cover: "https://images.squarespace-cdn.com/content/v1/627aa12f7c02d072c117cbba/1677703793516-NJ0O7NP5ORH3JOH9NVFQ/blueberrys.jpg?format=1500w")

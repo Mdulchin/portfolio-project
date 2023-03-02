@@ -3,7 +3,7 @@ function SoftwareCard({sProjects}){
 const sproj = sProjects.map((sproj) => {
     console.log(sproj)
     return (
-        <div className="softCard">
+        <div className="softCard" key={sproj.id}>
             <img src={sproj.cover} alt={sproj.title} />
             <h2>{sproj.title}</h2>
             <p>{sproj.description}</p>

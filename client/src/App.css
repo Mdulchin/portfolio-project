@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: "Ivar Text", sans-serif
+  font-family: teimer-web;
 }
 .Home {
   height: 100vh;
@@ -176,9 +176,9 @@ margin: 10px;
   position: absolute;
   width: 490px;
   padding-left: 10px;
-  padding-top: 143.5px;
+  padding-top: 143.4px;
   background: #d3b5ff99;
-  padding-bottom: 10%;
+  padding-bottom: 10.1%;
   height: 7%
 }
 .emCard:hover .desc {
@@ -202,7 +202,7 @@ margin: 10px;
  text-align: left;
   margin-top: 20px;
   margin-left: 10px;
-  font-size: xx-large;
+  font-size: 40px;
   font-weight: 600;
   border-bottom: #D3B5FF 6px solid;
 }
@@ -284,6 +284,7 @@ margin: 10px;
   overflow: hidden;
   margin: auto;
 }
+
 .colorImage {
   width: 115%;
   height: 100%;
@@ -295,15 +296,22 @@ margin: 10px;
   opacity: 0.7;
 }
 
+/* .colorImage:hover .colorskeinDesc {
+  display: block
+} */
+
 .colorskein h2 {
 margin-bottom: 6px;
+font-size: 31px;
 }
 .colorskein p {
   width: 80%;
   margin: auto;
   padding-bottom: 10px;
 }
-
+svg.github:hover {
+  transform: scale(1.1);
+}
 .cTech {
   margin-top: 0;
   word-spacing: 1px;

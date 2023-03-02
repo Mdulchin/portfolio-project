@@ -17,7 +17,8 @@ const sproj = sProjects.map((sproj) => {
             <div className="cropPlease">
             <a href="https://colorskein.onrender.com/"><img className="colorImage" src="https://camo.githubusercontent.com/99fc148ff7d47145df2ab78318c1c151fc4588dd087bc2404d92a492112eef5a/68747470733a2f2f696d672e796f75747562652e636f6d2f76692f49765a6f3359595a4431492f6d617872657364656661756c742e6a7067"></img></a>
             </div>
-            <h2>Colorskein</h2>
+            {/* <p className="colorskeinDesc">Click to visit</p> */}
+            <h2 className="csTitle">Colorskein</h2>
             <ul className="cTech"> 
                 <li>React</li>
                 <li>Ruby on Rails</li>

@@ -1,6 +1,6 @@
-import Me from "/Users/madelinedulchin/Development/code/new_project/portfolio-project/client/src/Me.JPG";
+import Me from "./Me.JPG";
 import { Link } from "react-router-dom";
-import DulchinResume from "/Users/madelinedulchin/Development/code/new_project/portfolio-project/client/src/DulchinResume.pdf";
+import DulchinResume from "./DulchinResume.pdf";
 function About(){
 
     return(

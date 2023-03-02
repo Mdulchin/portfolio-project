@@ -43,7 +43,7 @@ padding-right: 3.4px;
   width: 24px;
   margin-right: 3px;
 }
-.firstName {
+/* .firstName {
   position: absolute;
   font-size: xx-large;
   margin-top: 13%;
@@ -51,30 +51,50 @@ padding-right: 3.4px;
   color: white;
   width: 42.65%;
   border-bottom: 6.5px solid #D3B5FF;
-}
+} */
 .first {
+  position: fixed;
   margin-bottom: 3px;
   text-align: right;
   padding-right: 15px;
+  font-size: 80px;
+  margin-top: 17%;
+  margin-left: 27.5%;
+  color: white;
 }
-.lastName {
+/* .lastName {
   position: absolute;
   font-size: xx-large;
   margin-top: 21.1%;
   margin-left: 4.6%;
   border-top: 6.5px solid #CD1F1D;
   width: 42.7%;
-}
+} */
 .last {
-  margin-top: 3px;
   text-align: left;
   padding-left: 15px;
+  margin-top: 22%;
+  margin-left: 50%;
+  font-size: 80px;
+  position: fixed;
 }
-
+.homeColor {
+  position: fixed;
+  margin-top: 22.2%;
+  margin-left: -35.4%;
+  height: 6px;
+  width: 80%;
+  background: linear-gradient(
+    to left,
+    #CD1F1D 0%,
+    #CD1F1D 50%,
+    #D3B5FF 50%,
+    #D3B5FF 100%);
+}
 
 .EP {
   position: absolute;
-  margin-top: 17.4%;
+  margin-top: 25%;
   margin-left: -43.7%;
   font-size: 20px;
   color: #D3B5FF;
@@ -82,35 +102,50 @@ padding-right: 3.4px;
   transform: rotate(180deg);
   font-size: 100px;
 }
+.EP:hover {
+  transform: scale(1.1);
+  transform: rotate(180deg);
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  color: white;
+}
 .SP {
   position: absolute;
-  margin-top: 17.3%;
+  margin-top: 25%;
   margin-left: 47.2%;
   font-size: 20px;
   color: #CD1F1D;
   text-decoration: none;
   font-size: 100px;
 }
+.SP:hover {
+  transform: scale(1.1);
+  -webkit-transition: ease-out 0.5s;
+  -moz-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  color: black;
+}
 
 .EAdescription {
   position: absolute;
-  margin-top: 22%;
+  margin-top: 28%;
   font-size: x-large;
   font-weight: 600;
   color: white;
   width: 15%;
   text-align: right;
-  margin-left: 6.5%;
+  margin-left: 7.6%;
 }
 .SWdescription {
   position: absolute;
-  margin-top: 19%;
+  margin-top: 28%;
   font-size: x-large;
   font-weight: 600;
   color: black;
   width: 15%;
   text-align: left;
-  margin-left: 78%;
+  margin-left: 77.3%;
 }
 .AB {
   position: absolute;
@@ -146,7 +181,7 @@ padding-right: 3.4px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   width: 100%;
   height: 100%;
   /* background-color: #d3b5ff6f; */
@@ -154,7 +189,7 @@ padding-right: 3.4px;
 
 .emCard {
 display: grid;
-width: 500px;
+width: 590px;
 margin: 10px;
 }
 .info {
@@ -174,7 +209,7 @@ margin: 10px;
   margin: auto;
   display: none;
   position: absolute;
-  width: 490px;
+  width: 590px;
   padding-left: 10px;
   padding-top: 143.4px;
   background: #d3b5ff99;
@@ -187,7 +222,7 @@ margin: 10px;
 
 .emCard h2 {
   /* position: absolute; */
-  width: 490px;
+  width: 590px;
   margin-left: 0px;
   font-size: 35px;
   margin-bottom: 9px;
@@ -271,16 +306,16 @@ margin: 10px;
   justify-content: center;
 }
 .colorskein {
-  width: 66%;
-  height: 740px;
+  width: 69%;
+  height: 790px;
   background-color: #d3b5ff6a;
   margin: 10px;
   box-shadow: #d3b5ff6a 3px 3px 20px 0px;
   border-radius: 0px 0px 8px 8px;
 }
 .cropPlease {
-  width: 988px;
-  height: 500px;
+  /* width: 100%; */
+  height: 554px;
   overflow: hidden;
   margin: auto;
 }
@@ -288,7 +323,7 @@ margin: 10px;
 .colorImage {
   width: 115%;
   height: 100%;
-  object-position: 15% 10%;
+  object-position: 16% 9%;
   object-fit: cover;
   margin-left: -5.7%;
 }
@@ -327,7 +362,7 @@ svg.github:hover {
 display: grid;
 margin: 10px;
 height: 520px;
-width: 32%;
+width: 34%;
 border: 1px solid #D3B5FF;
 box-shadow: #d3b5ffd7 3px 3px 20px 0px;
 border-radius: 0px 0px 8px 8px;
@@ -616,47 +651,5 @@ background: radial-gradient(circle, rgba(181,188,255,1) 0%, rgba(211,181,255,1) 
   padding: 25px;
   margin: 5px;
 }
-/* .current {
-display: flex;
-flex-wrap: wrap;
-width: 100%;
-height: 300px;
-border-top: #CD1F1D 6px solid;
-} */
-/* .currentemb {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  height: 100%;
-  justify-content: flex-start;
-  align-items: center;
-} */
-/* .currentsoft {
-  margin-top: 0px;
-  margin-left: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  height: 100%;
-  justify-content: flex-start;
-  align-items: center;
-} */
-/* .currentemb h6 {
-  font-size: 20px;
-  font-weight: 500;
-  text-align: left;
-  margin-left: 2.67%;
-}
-.currentemb p {
-  font-size: 16px;
-  font-weight: 500;
-  text-align: left;
-  margin-left: 2.67%;
-  margin-top: 0px;
-}
-.currentemb img {
-  width: 40%;
-  height: 40%;
-  object-fit: contain;
-  margin-left: -75%;
-} */
+
+

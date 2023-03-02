@@ -5,8 +5,9 @@ function About(){
 
     return(
         <div className="about">
+            <span className="purpleBlock"></span>
             <h1>About</h1>
-            <h2>Me</h2>
+            {/* <h2>Me</h2> */}
             <img src={Me} alt="Madeline Dulchin" className="me"/>
             <h4>Hi, I'm Madeline, a full stack web developer and hand embroidery artist based in Brooklyn, NY.</h4>
 
@@ -18,10 +19,11 @@ function About(){
                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                 <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
                 </svg></button></a>
-            <div className="links">
+                <span className="redBlock"> </span>
+            {/* <div className="links"> */}
              <h5><Link to="/embroidery-projects" className="embport">Embroidery Portfolio</Link></h5>
             <h5><Link to="/software-projects" className="softport">Software Portfolio</Link></h5>
-            </div>
+            {/* </div> */}
             <div className="skillZone">
             <h6 className="skillList">Skills</h6>
             <ul className="skills">

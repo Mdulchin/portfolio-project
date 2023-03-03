@@ -9,8 +9,10 @@ function Home(){
             <p className="EAdescription">Embroidery Artist</p>
             <h1 className="last">Dulchin</h1>
             <p className="SWdescription">Software Engineer</p>
+            <span className='sideButtons'>
             <Link to="/embroidery-projects" className='EP'>➤</Link>
             <Link to="/software-projects" className='SP'>➤</Link>
+            </span>
             <Link to="/about" className='AB'>About</Link>
         </div>
     )

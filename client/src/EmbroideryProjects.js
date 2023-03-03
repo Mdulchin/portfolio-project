@@ -22,8 +22,8 @@ function EmbroideryProjects() {
       :
       <Link to="/" className="emHome">➤ <br /> <p className="emHome1">Home</p></Link>
     }
-    <EmbroideryCard eProjects={eProjects} setIsClicked={setIsClicked} isClicked={isClicked}/>
   </div>
+    <EmbroideryCard eProjects={eProjects} setIsClicked={setIsClicked} isClicked={isClicked}/>
   </>
   );
 }

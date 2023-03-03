@@ -8,11 +8,11 @@ const proj = eProjects.map((eProject) => {
     return (
     <div className="emCard" key={eProject.id}>
         <img src={eProject.cover} alt={eProject.title} />
-        <span className="emCardText">
+        <div className="emCardText">
         <p className='desc'>{eProject.description}
         </p>
         <button className="moreButton" type="button" onClick={() => morePhotos(eProject.photos)}>See more photos</button>
-        </span>
+        </div>
         <h2>{eProject.title}</h2>
         {/* <button className="moreButton" type="button" onClick={() => morePhotos(eProject.photos)}>See more photos</button> */}
         {/* </span> */}

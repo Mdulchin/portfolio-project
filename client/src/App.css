@@ -354,15 +354,18 @@ svg.github:hover {
   color: #CD1F1D; 
 }
 .softCard {
-display: grid;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 margin: 10px;
-max-width: 34%;
+max-width: 35%;
 border: 1px solid #D3B5FF;
 box-shadow: #d3b5ffd7 3px 3px 20px 0px;
 border-radius: 0px 0px 8px 8px;
 }
  .softCard h2 {
   background-color: rgba(95, 158, 160, 0.244);
+  max-width: 100%;
  }
 .softCard img {
   max-width: 100%;
@@ -370,8 +373,9 @@ border-radius: 0px 0px 8px 8px;
   margin-top: 0px;
 }
 .softCard p {
-  max-width: 80%;
+  max-width: 85%;
   margin: auto;
+  padding: 6px;
   padding-bottom: 10px;
 }
 
@@ -385,7 +389,9 @@ border-radius: 0px 0px 8px 8px;
   margin-top: 10px;
 }
 .git {
+  padding: 9px;
   padding-bottom: 9px;
+  align-self: flex-end;
 }
 .git:hover {
   transform: scale(1.2);

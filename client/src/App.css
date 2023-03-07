@@ -300,6 +300,7 @@ margin: 10px;
   flex-wrap: wrap;
   justify-content: center;
 }
+@media( min-width: 40em){
 .colorskein {
   max-width: 69%;
   max-height: 790px;
@@ -307,6 +308,7 @@ margin: 10px;
   margin: 10px;
   box-shadow: #d3b5ff6a 3px 3px 20px 0px;
   border-radius: 0px 0px 8px 8px;
+}
 }
 .cropPlease {
   /* width: 100%; */
@@ -353,6 +355,7 @@ svg.github:hover {
   font-weight: 500;
   color: #CD1F1D; 
 }
+@media( min-width: 40em) {
 .softCard {
 display: flex;
 flex-wrap: wrap;
@@ -363,6 +366,8 @@ border: 1px solid #D3B5FF;
 box-shadow: #d3b5ffd7 3px 3px 20px 0px;
 border-radius: 0px 0px 8px 8px;
 }
+}
+
  .softCard h2 {
   background-color: rgba(95, 158, 160, 0.244);
   max-width: 100%;

@@ -303,7 +303,7 @@ margin: 10px;
 @media( min-width: 40em){
 .colorskein {
   max-width: 69%;
-  max-height: 790px;
+  /* max-height: 790px; */
   background-color: #d3b5ff6a;
   margin: 10px;
   box-shadow: #d3b5ff6a 3px 3px 20px 0px;
